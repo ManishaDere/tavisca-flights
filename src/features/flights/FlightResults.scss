@@ -1,0 +1,61 @@
+@import '../../styles/variables';
+@import '../../styles/colors';
+
+.header {
+  &__top-info__path,
+  &__top-info__date {
+    justify-content: center;
+  }
+  div {
+    align-items: center;
+    .back-btn {
+      width: 10%;
+    }
+    .header__top-info {
+      width: 80%;
+    }
+    .btn-link {
+      width: 10%;
+    }
+  }
+}
+.flights {
+  margin-bottom: 15px;
+  .flight {
+    padding: 10px 15px 40px 15px;
+    border-bottom: 10px solid #46485112;
+    &__heading {
+      align-items: center;
+      padding: 10px 0px;
+      &--icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+.flight-classes {
+  &__column {
+    border: 1px solid $primary-color;
+    border-radius: 4px;
+    background-color: $primary-color;
+    flex: 1;
+    padding: 5px;
+    margin: 2px;
+  }
+}
+.flight-time {
+  margin: 20px 0px;
+  &__departure-info,
+  &__halt-info,
+  &__destination-info {
+    flex: 1;
+  }
+  &__departure-info,
+  &__destination-info {
+    p {
+      font-weight: bold;
+    }
+  }
+}

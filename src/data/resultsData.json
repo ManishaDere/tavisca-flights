@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "flightDetails": {
+      "name": "Ethopian airlines",
+      "logo": "assets/flight-logo.png"
+    },
+    "departure": "(PNQ) Lohegaon airport, pune, india",
+    "destination": "(ATL) Hartsfield–Jackson Atlanta International Airport, USA",
+    "departureTime": "02:30am",
+    "arrivalTime": "04:50pm",
+    "flyingHours": "14 20m",
+    "pricing": {
+      "main": "125",
+      "economy": "140",
+      "basic": "100"
+    },
+    "availableSeats": 5
+  },
+  {
+    "id": 2,
+    "flightDetails": {
+      "name": "British Airways",
+      "logo": "assets/flight-logo.png"
+    },
+    "departure": "(PNQ) Lohegaon airport, pune, india",
+    "destination": "(LAX) Los Angeles International Airport, USA",
+    "departureTime": "03:00 am",
+    "arrivalTime": "09:50 am",
+    "flyingHours": "06h 50m",
+    "pricing": {
+      "main": "400",
+      "economy": "500",
+      "basic": "300"
+    },
+    "availableSeats": 60
+  },
+  {
+    "id": 3,
+    "flightDetails": {
+      "name": "Indigo",
+      "logo": "assets/flight-logo.png"
+    },
+    "departure": "(PNQ) Lohegaon airport, pune, india",
+    "destination": "(DXB) Dubai International Airport, Dubai",
+    "departureTime": "03:00 am",
+    "arrivalTime": "09:50 am",
+    "flyingHours": "06h 50m",
+    "pricing": {
+      "main": "145",
+      "economy": "150",
+      "basic": "150"
+    },
+    "availableSeats": 50
+  }
+]

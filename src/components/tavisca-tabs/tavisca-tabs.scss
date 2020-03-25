@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+@import '../../styles/colors';
+
+.tavisca-tabs {
+  &__list {
+    margin-bottom: 15px;
+    display: flex;
+  }
+  &__tab {
+    padding: 5px 15px;
+    cursor: pointer;
+    border-bottom: 2px solid $border-color;
+    margin-right: 2px;
+    flex: 1;
+    align-items: center;
+    &.active {
+      border-color: $primary-color;
+    }
+  }
+  &__panel {
+    display: none;
+    padding: 0 15px;
+    &.active {
+      display: block;
+    }
+  }
+}

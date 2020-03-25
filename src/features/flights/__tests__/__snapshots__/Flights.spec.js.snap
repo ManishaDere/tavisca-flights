@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flights should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <form>
+      <fieldset>
+        <div
+          class="form-group"
+        >
+          <label
+            for="departure"
+          >
+            Departure
+          </label>
+          <input
+            class="form-control"
+            id="departure"
+            name="departure"
+            placeholder="Airport or city"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <label
+            for="destination"
+          >
+            Destination
+          </label>
+          <input
+            class="form-control"
+            id="destination"
+            name="destination"
+            placeholder="Airport or city"
+            type="text"
+            value=""
+          />
+        </div>
+      </fieldset>
+      <fieldset
+        class="flight-dates"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="form-group flex-grow mr-15"
+          >
+            <label
+              for="departureDate"
+            >
+              Departure Date
+            </label>
+            <input
+              class="form-control"
+              id="departureDate"
+              name="departureDate"
+              type="date"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group flex-grow"
+          >
+            <label
+              for="returnDate"
+            >
+              Return Date
+            </label>
+            <input
+              class="form-control"
+              id="returnDate"
+              name="returnDate"
+              type="date"
+              value=""
+            />
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          Travellers
+        </legend>
+        <div
+          class="flight-travelers flex justify-between"
+        >
+          <div
+            class="form-group flex-grow mr-15"
+          >
+            <label
+              for="adults"
+            >
+              Adults
+            </label>
+            <input
+              class="form-control"
+              id="adults"
+              name="adults"
+              placeholder="Number of adults"
+              type="number"
+              value="1"
+            />
+          </div>
+          <div
+            class="form-group flex-grow"
+          >
+            <label
+              for="child"
+            >
+              Childs
+            </label>
+            <input
+              class="form-control"
+              id="child"
+              name="child"
+              placeholder="Number of childs"
+              type="number"
+              value=""
+            />
+          </div>
+        </div>
+      </fieldset>
+      <div
+        class="form-group"
+      >
+        <label
+          for="passangerClass"
+        >
+          Class
+        </label>
+        <select
+          class="form-control"
+          id="passangerClass"
+          name="passangerClass"
+        >
+          <option
+            value="basic"
+          >
+            Basic
+          </option>
+          <option
+            value="main"
+          >
+            Main
+          </option>
+          <option
+            value="economy"
+          >
+            Economy
+          </option>
+        </select>
+      </div>
+      <button
+        class="btn btn-primary w-full"
+        type="submit"
+      >
+        Search Flights
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
