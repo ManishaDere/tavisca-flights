@@ -1,6 +1,6 @@
 import React from 'react';
 import Tabs from './tavisca-tabs';
-import Flights from '../features/flights/Flights';
+import Flights from '../features/flights/containers/Flights';
 import Hotels from '../features/hotels/Hotels';
 import Cars from '../features/cars/Cars';
 import Activities from '../features/activities/Activities';

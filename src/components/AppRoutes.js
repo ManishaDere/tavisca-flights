@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NoMatch from './NoMatch';
 import AppTabs from './AppTabs';
-import FlightResults from '../features/flights/FlightResults';
-import SortBy from '../features/flights/SortBy';
-import FilterBy from '../features/flights/FilterBy';
+import FlightResults from '../features/flights/containers/FlightResults';
+import SortBy from '../features/flights/containers/SortBy';
+import FilterBy from '../features/flights/containers/FilterBy';
 
 const AppRoutes = () => (
   <Router>

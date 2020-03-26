@@ -7,7 +7,7 @@ import thunk from 'redux-thunk';
 import { combineReducers } from 'redux';
 import { connectRouter } from 'connected-react-router';
 
-import flights from '../features/flights/reducers';
+import flights from '../features/flights/reducers/reducers';
 
 const createRootReducer = (history) =>
   combineReducers({
