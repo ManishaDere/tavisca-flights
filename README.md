@@ -66,3 +66,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+ ### I have used react hooks concept in whole project.
+ ### In src/data/resultsData.json file - i have used dummy data to show as flight results.
+ ### Prettier and eslint also added for code foramatting and to errors/warnings fetch purpose.
+ ### Redux store used in src/app/store.js also relative actions and reducers are used.
+ ###   locales added in src/features/locales folder - react-intl library used for that.
+ ### src/utils - it contains base css file for basic for all browsers.
+ ### src/features/flights/__tests__     - simple test case written for whether flights component rendering correctly or not.
