@@ -71,7 +71,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
  1] React hooks concept in whole project.<br />
  2] In src/data/resultsData.json file - dummy data used to show as flight results.<br />
  3] Prettier and eslint also added for code foramatting and to resolving errors/warnings fetch purpose.<br />
- 4] Redux store used in src/app/store.js also relative actions and reducers are used.<br />
+ 4] State management system - Redux store used in src/app/store.js also relative actions and reducers are used.<br />
  5] Internationalization - Locales added in src/features/locales folder - react-intl library used for that.<br />
  6] src/utils - it contains base css file for basic for all browsers.<br />
  7] React Testing Lobrary - src/features/flights/__tests__ - simple test case written for whether flights component rendering correctly or not.<br />
